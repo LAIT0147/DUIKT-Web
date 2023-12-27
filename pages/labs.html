@@ -1,0 +1,147 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initalscale=1.0">
+        <link rel="stylesheet" href="../static/css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+        <title>Web-site</title>
+    </head>
+    <body>
+        <header class="header">
+            <div class="container">
+                <div class="header__logo">
+                    <img src="../static/img/dut_logo.png" alt="Logo" width="160" height="120">
+                </div>
+                <nav class="header__nav">
+                    <button class="header__close">
+                        <svg width="30" height="27" viewBox="0 0 30 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="4.06066" y1="1.93934" x2="28.0607" y2="25.9393" stroke="white" stroke-width="3"/>
+                            <line x1="1.93934" y1="25.9393" x2="25.9393" y2="1.93934" stroke="white" stroke-width="3"/>
+                            </svg>
+                    </button>
+                    <ul>
+                        <li>
+                            <a href="../main.html">Main</a>
+                        </li>
+                        <li>
+                            <a href="about-me.html">About me</a>
+                        </li>
+                        <li>
+                            <a href="prakt.html">Pract</a>
+                        </li>
+                        <li>
+                            <a href="labs.html">Labs</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section class="hero">
+                <div class="container">
+                </div>
+            </section>
+            <section class="features">
+                <div class="container">
+                    <div class="title">
+                        <h2>Lab works</h2>
+                        <p>Here you can see my lab works which i found in telegram.</p>
+                    </div>
+                    <div class="features__frame">
+                        <div class="features__logo">
+                            <img src="../static/img/lab.svg" alt="Features image">
+                        </div>
+                        <div class="features__items">
+                            <div class="features__item">
+                                <div class="features__title">
+                                    <div class="features__title-icon">
+                                        <img src="../static/img/8.svg" alt="Icon">
+                                    </div>
+                                    <div class="features__title-text"><a href="../labs/lab1.html">Lab 1</a></div>
+                                </div>
+                                <div class="features__text">
+                                    <p><em>Створити на сторінці практичної роботи №1 таблицю з розкладом занять на місяць. За референс взяти поточний розклад вашої групи з сайту університету</em></p>
+                                </div>
+                            </div>
+                            <div class="features__item">
+                                <div class="features__title">
+                                    <div class="features__title-icon">
+                                        <img src="../static/img/8.svg" alt="Icon">
+                                    </div>
+                                    <div class="features__title-text"><a href="../labs/lab1.html">Lab 2</a></div>
+                                </div>
+                                <div class="features__text">
+                                    <p><em>Основи CSS. Мета практичної роботи "Основи CSS" - навчити студентів основним принципам та практичним аспектам використання Cascading Style Sheets (CSS) для стилізації вебсторінок.</em></p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="actions">
+                    <a href="../main.html" class="btn btn--primary">Go back</a>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div clas="container">
+                <div class="footer__content">
+                    <div class="footer__nav">
+                        
+                        <div class="list2">
+                            <ul>
+                                <li>
+                                    <h3>Resources</h3>
+                                </li>
+                                <li>
+                                    <a href="#">2020-2024</a>
+                                </li>
+                                <li>
+                                    <a href="labs.html">Labs</a>
+                                </li>
+                                <li>
+                                    <a href="prakt.html">Pract</a>
+                                </li>
+                                <li>
+                                    <a href="../main.html">Main</a>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                    <div class="footer__contacts">
+                        <div class="adress" >
+                            <div class="adress_icon">
+                                <img src="../static/img/github-icon.png" alt="Icon">  
+                            </div>
+                            <div class="adress__title"><p><a href="https://github.com/LAIT0147/DUIKT-Web">My Git</a></p></div>
+                        </div>
+                        <div class="phone">
+                            <div class="phone_icon">
+                                <img src="../static/img/telegram.png" alt="Icon">
+                            </div>
+                            <div class="phone_title"><p>@vlad_kud</p></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script>
+            let headerOpen = document.querySelector('.header__burger');
+            let headerClose = document.querySelector('.header__close');
+            let headerNav = document.querySelector('.header__nav');
+    
+            headerOpen.addEventListener('click', function(e) {
+                headerNav.classList.add('active');
+            });
+    
+            headerClose.addEventListener('click', function(e) {
+                headerNav.classList.remove('active');
+            });
+        </script>
+    </body>
+</html>

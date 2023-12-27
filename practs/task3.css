@@ -1,0 +1,114 @@
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+  
+body {
+    margin: 0;
+  }
+  
+main {
+    display: block;
+}
+
+ /*Завдання 1*/
+
+.container li:first-child {
+    font-weight: bolder;
+}
+
+/*Завдання 2*/
+
+a{
+    color: red;
+}
+
+/*Завдання 3*/
+
+input#input2{
+    background-color: gray;
+}
+
+/*Завдання 4*/
+
+div p{
+    font-weight: bold;
+}
+
+/*Завдання 5*/
+
+a[href^="https://"]{
+  color: green;
+}
+
+/*Завдання 6*/
+
+input[type="text"]{
+    border: 1px solid blue;
+}
+
+/*Завдання 7*/
+
+li:first-child{
+    font-size: 24px;
+}
+
+/*Завдання 8*/
+
+li:last-child{
+    font-size: 24px;
+}
+
+/*Завдання 9*/
+
+div p{
+    font-size: 16px;
+}
+
+/*Завдання 10*/
+
+input[type="checkbox"]:checked{
+    background-color: aqua;
+}
+
+/*Завдання 11*/
+
+li a{
+    text-decoration: underline;
+}
+
+/*Завдання 12*/
+
+li:nth-child(even) {
+    font-weight: bolder;
+}
+
+/*Завдання 13*/
+
+input[type="text"]:not(disabled){
+    background-color: gray;
+}
+
+/*Завдання 14*/
+
+p:first-child{
+    font-size: 24px;
+}
+
+/*Завдання 15*/
+
+.container .special ~ li{
+    text-decoration: underline;
+}
+
+/*Завдання 16*/
+
+p::first-letter{
+    font-size: 36px;
+}
+
+/*Завдання 17*/
+
+a::after{
+    content: "↗";
+}
